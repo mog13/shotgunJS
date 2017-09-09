@@ -1,0 +1,130 @@
+#title {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    position: relative;
+    margin-top: 2%;
+    padding-top: 20px;
+}
+#title #shot {
+    transform: rotate(-45deg);
+    letter-spacing: 10px;
+}
+#title #gun {
+    transform: translateY(-36px) translateX(32px) rotate(-45deg);
+    letter-spacing: 21px;
+}
+#title #JS {
+    position: absolute;
+    right: 34px;
+    bottom: 22px;
+    font-size: 28px;
+    color: orange;
+}
+#honestAndLegitimateEndorsements {
+    position: relative;
+    max-height: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.endorsement {
+    font-size: 12px;
+    color: lightgray;
+}
+#nonPretentiousSubtitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #848484;
+    padding-top: 20px;
+}
+#nonPretentiousSubtitle p {
+    padding-bottom: 0;
+    margin-bottom: -20px;
+}
+#nonSpecifIntroThatsMostlyWaffle {
+    text-align: center;
+    color: #999999;
+    font-style: italic;
+    justify-content: center;
+}
+.shamelesSimpsonsReference {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+@media (min-width: 993px) {
+    .shamelesSimpsonsReference {
+        width: 560px;
+    }
+}
+#hackedTogetherDemonstration .example {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 5%;
+    height: 450px
+}
+@media (min-width: 993px) {
+    #hackedTogetherDemonstration #regular {
+        border-right: solid 1px lightgray;
+    }
+}
+@media (max-width: 992px) {
+    #hackedTogetherDemonstration #regular {
+        border-bottom: solid 1px lightgray;
+    }
+}
+#moreinfo {
+    text-align: center;
+    color: #999999;
+    justify-content: center;
+}
+li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+ul {
+    color: white;
+}
+#reasons {
+    width: 60%;
+    min-width: 300px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+#install {
+    text-align: center;
+    color: #999999;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+@media (max-width: 992px) {
+    #install {
+        margin-bottom: 15%;
+    }
+}
+marquee {
+    color: lime;
+}
+#footer {
+    width: 100%;
+    height: 40px;
+    background-color: #464545;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: grey 0;
+    box-shadow: 0px 1px 3px #999999;
+    text-align: center;
+    padding-top: 8px;
+    color: #ccc;
+}
+@media (max-width: 992px) {
+    #footer {
+        height: 50px;
+        font-size: 11px;
+    }
+}
